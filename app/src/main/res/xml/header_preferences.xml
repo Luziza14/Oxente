@@ -1,0 +1,16 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="com.fers.oxentesushiapplication.MenusetingsActivity$MessagesFragment"
+        app:icon="@drawable/salmao"
+        app:key="messages_header"
+        app:title="@string/messages_header" />
+
+    <Preference
+        app:fragment="com.fers.oxentesushiapplication.MenusetingsActivity$SyncFragment"
+        app:icon="@drawable/salmao"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+
+</PreferenceScreen>
